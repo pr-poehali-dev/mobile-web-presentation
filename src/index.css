@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500;600&family=Kalam:wght@300;400;700&family=Caveat:wght@400;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -109,5 +109,17 @@
   h5,
   h6 {
     font-family: "Montserrat", sans-serif;
+  }
+
+  .handwritten {
+    font-family: "Kalam", cursive;
+  }
+
+  .handwritten-fancy {
+    font-family: "Caveat", cursive;
+  }
+
+  .kidsy {
+    font-family: "Comic Sans MS", "Trebuchet MS", cursive;
   }
 }
